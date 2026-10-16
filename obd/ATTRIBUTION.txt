@@ -1,0 +1,1 @@
+OBD-II DTC data: OBDex project (https://github.com/foerbsnavi/OBDex), data dedicated to the public domain under CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/). Lithuanian texts, severity, causes, checks and cost estimates added by Autolupa. Further EN data from MIT-licensed sources listed in SOURCES.md.
