@@ -1,0 +1,1138 @@
+{
+ "generated": "2026-10-16",
+ "currency": "EUR",
+ "vat_note": "Dalis kainų be PVM, dalis su PVM – žr. šaltinį. Servisų kainos dažnai „nuo“.",
+ "labour": {
+  "rate_eur_h": [
+   40,
+   95
+  ],
+  "note": "Darbo valandos įkainis LT servisuose 2026 m.: 40 €/val.+PVM (mylas), 45–56 €/val.+PVM (AutoAKSTĖ), 56–62 €/val. (Autokurtas), 70–95 €/val. be PVM (INTRAC, nuo 2026-05-01). Elektrikų darbai pigiuose servisuose nuo 20 €/val. (Dagas).",
+  "sources": [
+   "akste",
+   "autokurtas",
+   "intrac",
+   "mylas",
+   "dagas"
+  ]
+ },
+ "repairs": {
+  "diagnostika": {
+   "lt": "Kompiuterinė diagnostika",
+   "parts_eur": null,
+   "labour_eur": [
+    15,
+    50
+   ],
+   "total_eur": [
+    15,
+    50
+   ],
+   "sources": [
+    "dagas",
+    "akste",
+    "wheelstreet",
+    "ladeira"
+   ],
+   "checked": "2026-10-16",
+   "note": null,
+   "vehicle_type": [
+    "lengvieji",
+    "visureigiai_4x4",
+    "furgonai_lengvieji_komerciniai",
+    "kemperiai"
+   ]
+  },
+  "lambda": {
+   "lt": "Lambda zondo keitimas",
+   "parts_eur": [
+    18,
+    94
+   ],
+   "labour_eur": [
+    20,
+    35
+   ],
+   "total_eur": [
+    38,
+    129
+   ],
+   "sources": [
+    "p_egrdalys",
+    "p_autorebus",
+    "ladeira",
+    "boltrama",
+    "avrc_k"
+   ],
+   "checked": "2026-10-16",
+   "note": "Dalys – neoriginalios (aftermarket) LT parduotuvių kainos; originalios brangesnės.",
+   "vehicle_type": [
+    "lengvieji",
+    "visureigiai_4x4",
+    "furgonai_lengvieji_komerciniai",
+    "kemperiai"
+   ]
+  },
+  "maf": {
+   "lt": "Oro srauto matuoklio (MAF) keitimas",
+   "parts_eur": [
+    58,
+    127
+   ],
+   "labour_eur": null,
+   "total_eur": [
+    58,
+    127
+   ],
+   "sources": [
+    "p_adp"
+   ],
+   "checked": "2026-10-16",
+   "note": "Rasta tik dalies kaina LT parduotuvėje; montavimo darbas (~0,3–0,5 val.) neįskaičiuotas.",
+   "vehicle_type": [
+    "lengvieji",
+    "visureigiai_4x4",
+    "furgonai_lengvieji_komerciniai",
+    "kemperiai"
+   ]
+  },
+  "katalizatorius": {
+   "lt": "Katalizatoriaus keitimas (neoriginalus)",
+   "parts_eur": [
+    50,
+    217
+   ],
+   "labour_eur": [
+    50,
+    300
+   ],
+   "total_eur": [
+    100,
+    517
+   ],
+   "sources": [
+    "p_ad247_cat",
+    "p_autorebus",
+    "ladeira",
+    "boltrama",
+    "servisas555"
+   ],
+   "checked": "2026-10-16",
+   "note": "Dalys – neoriginalios (aftermarket) LT parduotuvių kainos; originalios brangesnės.",
+   "vehicle_type": [
+    "lengvieji",
+    "visureigiai_4x4",
+    "furgonai_lengvieji_komerciniai",
+    "kemperiai"
+   ]
+  },
+  "dpf_valymas": {
+   "lt": "DPF valymas / regeneracija",
+   "parts_eur": null,
+   "labour_eur": [
+    24,
+    400
+   ],
+   "total_eur": [
+    24,
+    400
+   ],
+   "sources": [
+    "avrc",
+    "servisas555"
+   ],
+   "checked": "2026-10-16",
+   "note": null,
+   "vehicle_type": [
+    "lengvieji",
+    "visureigiai_4x4",
+    "furgonai_lengvieji_komerciniai",
+    "kemperiai"
+   ]
+  },
+  "dpf_keitimas": {
+   "lt": "Naujo DPF keitimas su darbu",
+   "parts_eur": null,
+   "labour_eur": null,
+   "total_eur": [
+    800,
+    2000
+   ],
+   "sources": [
+    "avrc"
+   ],
+   "checked": "2026-10-16",
+   "note": null,
+   "vehicle_type": [
+    "lengvieji",
+    "visureigiai_4x4",
+    "furgonai_lengvieji_komerciniai",
+    "kemperiai"
+   ]
+  },
+  "egr_valymas": {
+   "lt": "EGR vožtuvo valymas",
+   "parts_eur": null,
+   "labour_eur": [
+    50,
+    300
+   ],
+   "total_eur": [
+    50,
+    300
+   ],
+   "sources": [
+    "wheelstreet",
+    "avrc",
+    "autoara"
+   ],
+   "checked": "2026-10-16",
+   "note": null,
+   "vehicle_type": [
+    "lengvieji",
+    "visureigiai_4x4",
+    "furgonai_lengvieji_komerciniai",
+    "kemperiai"
+   ]
+  },
+  "egr_keitimas": {
+   "lt": "EGR vožtuvo keitimas su detale",
+   "parts_eur": null,
+   "labour_eur": null,
+   "total_eur": [
+    200,
+    1000
+   ],
+   "sources": [
+    "wheelstreet",
+    "avrc",
+    "autoara"
+   ],
+   "checked": "2026-10-16",
+   "note": null,
+   "vehicle_type": [
+    "lengvieji",
+    "visureigiai_4x4",
+    "furgonai_lengvieji_komerciniai",
+    "kemperiai"
+   ]
+  },
+  "uzdegimo_rite": {
+   "lt": "Uždegimo ritės / žvakių keitimas",
+   "parts_eur": [
+    18,
+    75
+   ],
+   "labour_eur": [
+    5,
+    15
+   ],
+   "total_eur": [
+    23,
+    90
+   ],
+   "sources": [
+    "p_rm",
+    "p_ad247_era",
+    "svilniuje",
+    "boltrama"
+   ],
+   "checked": "2026-10-16",
+   "note": "Dalys – neoriginalios (aftermarket) LT parduotuvių kainos; originalios brangesnės.",
+   "vehicle_type": [
+    "lengvieji",
+    "visureigiai_4x4",
+    "furgonai_lengvieji_komerciniai",
+    "kemperiai"
+   ]
+  },
+  "kaitinimo_zvakes": {
+   "lt": "Kaitinimo žvakių keitimas",
+   "parts_eur": [
+    14,
+    24
+   ],
+   "labour_eur": [
+    15,
+    60
+   ],
+   "total_eur": [
+    29,
+    84
+   ],
+   "sources": [
+    "p_ad247_era",
+    "boltrama",
+    "ladeira"
+   ],
+   "checked": "2026-10-16",
+   "note": "Dalys – neoriginalios (aftermarket) LT parduotuvių kainos; originalios brangesnės.",
+   "vehicle_type": [
+    "lengvieji",
+    "visureigiai_4x4",
+    "furgonai_lengvieji_komerciniai",
+    "kemperiai"
+   ]
+  },
+  "turbina": {
+   "lt": "Turbinos remontas + montavimas",
+   "parts_eur": null,
+   "labour_eur": null,
+   "total_eur": [
+    280,
+    750
+   ],
+   "sources": [
+    "salditurbo",
+    "chipt"
+   ],
+   "checked": "2026-10-16",
+   "note": null,
+   "vehicle_type": [
+    "lengvieji",
+    "visureigiai_4x4",
+    "furgonai_lengvieji_komerciniai",
+    "kemperiai"
+   ]
+  },
+  "aktuatorius_turbo": {
+   "lt": "Turbinos elektrinio aktuatoriaus remontas",
+   "parts_eur": null,
+   "labour_eur": [
+    60,
+    150
+   ],
+   "total_eur": [
+    60,
+    150
+   ],
+   "sources": [
+    "salditurbo"
+   ],
+   "checked": "2026-10-16",
+   "note": null,
+   "vehicle_type": [
+    "lengvieji",
+    "visureigiai_4x4",
+    "furgonai_lengvieji_komerciniai",
+    "kemperiai"
+   ]
+  },
+  "dsg_mechatronikas": {
+   "lt": "DSG mechatroniko remontas (DQ250/DQ200) su nuėmimu",
+   "parts_eur": null,
+   "labour_eur": null,
+   "total_eur": [
+    350,
+    1360
+   ],
+   "sources": [
+    "tmt"
+   ],
+   "checked": "2026-10-16",
+   "note": null,
+   "vehicle_type": [
+    "lengvieji",
+    "visureigiai_4x4",
+    "furgonai_lengvieji_komerciniai",
+    "kemperiai"
+   ]
+  },
+  "pavaru_adaptacija": {
+   "lt": "Pavarų dėžės programos atnaujinimas / adaptacija",
+   "parts_eur": null,
+   "labour_eur": [
+    50,
+    100
+   ],
+   "total_eur": [
+    50,
+    100
+   ],
+   "sources": [
+    "tmt"
+   ],
+   "checked": "2026-10-16",
+   "note": null,
+   "vehicle_type": [
+    "lengvieji",
+    "visureigiai_4x4",
+    "furgonai_lengvieji_komerciniai",
+    "kemperiai"
+   ]
+  },
+  "grandine": {
+   "lt": "Paskirstymo grandinės keitimas",
+   "parts_eur": null,
+   "labour_eur": null,
+   "total_eur": [
+    600,
+    2000
+   ],
+   "sources": [
+    "toptis",
+    "chipt",
+    "avrc"
+   ],
+   "checked": "2026-10-16",
+   "note": null,
+   "vehicle_type": [
+    "lengvieji",
+    "visureigiai_4x4",
+    "furgonai_lengvieji_komerciniai",
+    "kemperiai"
+   ]
+  },
+  "common_rail": {
+   "lt": "Common rail kuro sistemos remontas",
+   "parts_eur": null,
+   "labour_eur": null,
+   "total_eur": [
+    1000,
+    4000
+   ],
+   "sources": [
+    "avrc",
+    "autopurkstukai"
+   ],
+   "checked": "2026-10-16",
+   "note": null,
+   "vehicle_type": [
+    "lengvieji",
+    "visureigiai_4x4",
+    "furgonai_lengvieji_komerciniai",
+    "kemperiai"
+   ]
+  },
+  "abs_daviklis": {
+   "lt": "ABS daviklio keitimas",
+   "parts_eur": [
+    8,
+    60
+   ],
+   "labour_eur": [
+    10,
+    25
+   ],
+   "total_eur": [
+    18,
+    85
+   ],
+   "sources": [
+    "p_ad1_abs",
+    "aa_abs1",
+    "aa_abs2",
+    "motoint_cp"
+   ],
+   "checked": "2026-10-16",
+   "note": "Dalys – neoriginalios (aftermarket) LT parduotuvių kainos; originalios brangesnės.",
+   "vehicle_type": [
+    "lengvieji",
+    "visureigiai_4x4",
+    "furgonai_lengvieji_komerciniai",
+    "kemperiai"
+   ]
+  },
+  "akumuliatorius": {
+   "lt": "12 V akumuliatoriaus keitimas",
+   "parts_eur": [
+    55,
+    245
+   ],
+   "labour_eur": [
+    9,
+    15
+   ],
+   "total_eur": [
+    64,
+    260
+   ],
+   "sources": [
+    "aa_bat1",
+    "aa_bat2",
+    "aa_bat3",
+    "aa_bat4",
+    "aa_bat5",
+    "proservisai",
+    "asv"
+   ],
+   "checked": "2026-10-16",
+   "note": "Autoaibė 40–95 Ah, nuo 55 € (Yuasa 40Ah) iki 245 € (Varta AGM 95Ah); taikoma nuolaida grąžinus seną akumuliatorių.",
+   "vehicle_type": [
+    "lengvieji",
+    "visureigiai_4x4",
+    "furgonai_lengvieji_komerciniai",
+    "kemperiai"
+   ]
+  },
+  "kuro_siurblys": {
+   "lt": "Kuro siurblio (bake) keitimas",
+   "parts_eur": [
+    197,
+    334
+   ],
+   "labour_eur": [
+    100,
+    100
+   ],
+   "total_eur": [
+    297,
+    434
+   ],
+   "sources": [
+    "aa_fuelpump",
+    "avrc_k",
+    "boltrama"
+   ],
+   "checked": "2026-10-16",
+   "note": "Autoaibė: neoriginalūs siurbliai 197–334 € (Audi OEM pavyzdys 589 €); darbas – kuro bako nuėmimas nuo 100 € (kai siurblys pasiekiamas per liuką – pigiau).",
+   "vehicle_type": [
+    "lengvieji",
+    "visureigiai_4x4",
+    "furgonai_lengvieji_komerciniai",
+    "kemperiai"
+   ]
+  },
+  "evap": {
+   "lt": "EVAP prapūtimo vožtuvas / aktyvintos anglies filtras (tik dalys)",
+   "parts_eur": [
+    10,
+    80
+   ],
+   "labour_eur": null,
+   "total_eur": [
+    10,
+    80
+   ],
+   "sources": [
+    "p_ad247_evap1",
+    "p_ad247_evap2",
+    "aa_filters"
+   ],
+   "checked": "2026-10-16",
+   "note": "Vožtuvai 9,99–11,99 € (Autodalys247), anglies filtras 80 € (Autoaibė). LT darbo kainos nerasta.",
+   "vehicle_type": [
+    "lengvieji",
+    "visureigiai_4x4",
+    "furgonai_lengvieji_komerciniai",
+    "kemperiai"
+   ]
+  },
+  "oro_pagalves_juosta": {
+   "lt": "Vairo kontaktinė juosta (clock spring) – tik dalis",
+   "parts_eur": [
+    19,
+    63
+   ],
+   "labour_eur": null,
+   "total_eur": [
+    19,
+    63
+   ],
+   "sources": [
+    "aa_airbag"
+   ],
+   "checked": "2026-10-16",
+   "note": "Autoaibė parduoda tik kontaktines juostas (19–63 €); pačių oro pagalvių modulių kainų nerasta. Darbo kainos nerasta.",
+   "vehicle_type": [
+    "lengvieji",
+    "visureigiai_4x4",
+    "furgonai_lengvieji_komerciniai",
+    "kemperiai"
+   ]
+  },
+  "termostatas": {
+   "lt": "Termostato keitimas",
+   "parts_eur": [
+    10,
+    22
+   ],
+   "labour_eur": [
+    29,
+    45
+   ],
+   "total_eur": [
+    39,
+    67
+   ],
+   "sources": [
+    "p_ad247_th",
+    "asv"
+   ],
+   "checked": "2026-10-16",
+   "note": "Dalys – neoriginalios (aftermarket) LT parduotuvių kainos; originalios brangesnės.",
+   "vehicle_type": [
+    "lengvieji",
+    "visureigiai_4x4",
+    "furgonai_lengvieji_komerciniai",
+    "kemperiai"
+   ]
+  },
+  "generatorius": {
+   "lt": "Generatoriaus remontas su nuėmimu",
+   "parts_eur": null,
+   "labour_eur": [
+    55,
+    135
+   ],
+   "total_eur": [
+    55,
+    135
+   ],
+   "sources": [
+    "proservisai",
+    "dagas"
+   ],
+   "checked": "2026-10-16",
+   "note": null,
+   "vehicle_type": [
+    "lengvieji",
+    "visureigiai_4x4",
+    "furgonai_lengvieji_komerciniai",
+    "kemperiai"
+   ]
+  },
+  "starteris": {
+   "lt": "Starterio remontas su nuėmimu",
+   "parts_eur": null,
+   "labour_eur": [
+    34,
+    135
+   ],
+   "total_eur": [
+    34,
+    135
+   ],
+   "sources": [
+    "proservisai",
+    "dagas"
+   ],
+   "checked": "2026-10-16",
+   "note": null,
+   "vehicle_type": [
+    "lengvieji",
+    "visureigiai_4x4",
+    "furgonai_lengvieji_komerciniai",
+    "kemperiai"
+   ]
+  },
+  "ecu_programa": {
+   "lt": "Valdymo bloko programinė įranga / adaptacijos",
+   "parts_eur": null,
+   "labour_eur": [
+    50,
+    100
+   ],
+   "total_eur": [
+    50,
+    100
+   ],
+   "sources": [
+    "tmt"
+   ],
+   "checked": "2026-10-16",
+   "note": null,
+   "vehicle_type": [
+    "lengvieji",
+    "visureigiai_4x4",
+    "furgonai_lengvieji_komerciniai",
+    "kemperiai"
+   ]
+  },
+  "elektros_instaliacija": {
+   "lt": "Elektros instaliacijos remontas (1–3 val.)",
+   "parts_eur": null,
+   "labour_eur": [
+    38,
+    186
+   ],
+   "total_eur": [
+    38,
+    186
+   ],
+   "sources": [
+    "proservisai",
+    "autokurtas"
+   ],
+   "checked": "2026-10-16",
+   "note": null,
+   "vehicle_type": [
+    "lengvieji",
+    "visureigiai_4x4",
+    "furgonai_lengvieji_komerciniai",
+    "kemperiai"
+   ]
+  },
+  "adblue_nox": {
+   "lt": "SCR / AdBlue / NOx jutiklio remontas (be dalių)",
+   "parts_eur": null,
+   "labour_eur": [
+    24,
+    300
+   ],
+   "total_eur": [
+    24,
+    300
+   ],
+   "sources": [
+    "servisas555"
+   ],
+   "checked": "2026-10-16",
+   "note": null,
+   "vehicle_type": [
+    "lengvieji",
+    "visureigiai_4x4",
+    "furgonai_lengvieji_komerciniai",
+    "kemperiai"
+   ]
+  },
+  "sunkvezimio_darbo_valanda": {
+   "lt": "Sunkvežimio remonto darbo valanda (be PVM)",
+   "parts_eur": null,
+   "labour_eur": [
+    45,
+    70
+   ],
+   "total_eur": [
+    45,
+    70
+   ],
+   "sources": [
+    "htl",
+    "keliuprieziura",
+    "autokurtas"
+   ],
+   "checked": "2026-10-16",
+   "note": "Hanse Trailer 50 €/val., Kelių priežiūra 45 €/val., Autokurtas Ford sunkvežimiai 70 €/val.",
+   "vehicle_type": [
+    "sunkvezimiai",
+    "autobusai"
+   ]
+  },
+  "sunkvezimio_diagnostika": {
+   "lt": "Sunkvežimio kompiuterinė diagnostika",
+   "parts_eur": null,
+   "labour_eur": [
+    45,
+    45
+   ],
+   "total_eur": [
+    45,
+    45
+   ],
+   "sources": [
+    "keliuprieziura"
+   ],
+   "checked": "2026-10-16",
+   "note": null,
+   "vehicle_type": [
+    "sunkvezimiai",
+    "autobusai"
+   ]
+  },
+  "zemes_ukio_technikos_valanda": {
+   "lt": "Žemės ūkio / spec. technikos darbo valanda ir diagnostika",
+   "parts_eur": null,
+   "labour_eur": [
+    50,
+    50
+   ],
+   "total_eur": [
+    50,
+    50
+   ],
+   "sources": [
+    "keliuprieziura"
+   ],
+   "checked": "2026-10-16",
+   "note": null,
+   "vehicle_type": [
+    "traktoriai_zemes_ukio"
+   ]
+  },
+  "motociklo_diagnostika": {
+   "lt": "Motociklo kompiuterinė diagnostika",
+   "parts_eur": null,
+   "labour_eur": [
+    30,
+    60
+   ],
+   "total_eur": [
+    30,
+    60
+   ],
+   "sources": [
+    "yomoto",
+    "motodiag",
+    "baysport"
+   ],
+   "checked": "2026-10-16",
+   "note": "Darbo valanda motociklų servisuose ~60 €/val. (Motoinn, Moto-Baysport).",
+   "vehicle_type": [
+    "motociklai_keturraciai_euro5"
+   ]
+  },
+  "motociklo_zvakes": {
+   "lt": "Motociklo uždegimo žvakių keitimas (darbas)",
+   "parts_eur": null,
+   "labour_eur": [
+    5,
+    10
+   ],
+   "total_eur": [
+    5,
+    10
+   ],
+   "sources": [
+    "motoinn",
+    "baysport"
+   ],
+   "checked": "2026-10-16",
+   "note": null,
+   "vehicle_type": [
+    "motociklai_keturraciai_euro5"
+   ]
+  },
+  "motociklo_patikra": {
+   "lt": "Bendra motociklo / keturračio patikra",
+   "parts_eur": null,
+   "labour_eur": [
+    40,
+    60
+   ],
+   "total_eur": [
+    40,
+    60
+   ],
+   "sources": [
+    "motoinn",
+    "baysport"
+   ],
+   "checked": "2026-10-16",
+   "note": null,
+   "vehicle_type": [
+    "motociklai_keturraciai_euro5"
+   ]
+  },
+  "hibrido_baterijos_diagnostika": {
+   "lt": "Hibrido / EV baterijos diagnostika",
+   "parts_eur": null,
+   "labour_eur": [
+    50,
+    80
+   ],
+   "total_eur": [
+    50,
+    80
+   ],
+   "sources": [
+    "autohib",
+    "osw"
+   ],
+   "checked": "2026-10-16",
+   "note": null,
+   "vehicle_type": [
+    "elektromobiliai_hibridai"
+   ]
+  },
+  "hv_moduliu_keitimas": {
+   "lt": "Aukštos įtampos baterijos modulių keitimas",
+   "parts_eur": null,
+   "labour_eur": [
+    100,
+    1500
+   ],
+   "total_eur": [
+    100,
+    1500
+   ],
+   "sources": [
+    "autohib",
+    "osw",
+    "vezejugidas"
+   ],
+   "checked": "2026-10-16",
+   "note": "autohib: nuo 100 €/modulis; osw: 200–800 €; Leaf modulių keitimas 500–1500 € (vezejugidas).",
+   "vehicle_type": [
+    "elektromobiliai_hibridai"
+   ]
+  },
+  "hibrido_baterijos_atnaujinimas": {
+   "lt": "Hibridinės baterijos atnaujinimas / balansavimas",
+   "parts_eur": null,
+   "labour_eur": [
+    150,
+    500
+   ],
+   "total_eur": [
+    150,
+    500
+   ],
+   "sources": [
+    "autohib",
+    "osw"
+   ],
+   "checked": "2026-10-16",
+   "note": null,
+   "vehicle_type": [
+    "elektromobiliai_hibridai"
+   ]
+  },
+  "hibrido_baterija_visa": {
+   "lt": "Visos Toyota/Lexus hibridinės baterijos keitimas",
+   "parts_eur": null,
+   "labour_eur": [
+    1500,
+    2500
+   ],
+   "total_eur": [
+    1500,
+    2500
+   ],
+   "sources": [
+    "autohib"
+   ],
+   "checked": "2026-10-16",
+   "note": "nuo 1500 € naudota/atnaujinta, nuo 2500 € nauja.",
+   "vehicle_type": [
+    "elektromobiliai_hibridai"
+   ]
+  },
+  "ev_baterija_visa": {
+   "lt": "Visos EV baterijos keitimas",
+   "parts_eur": null,
+   "labour_eur": [
+    2500,
+    18000
+   ],
+   "total_eur": [
+    2500,
+    18000
+   ],
+   "sources": [
+    "wheelstreet_ev",
+    "autoplius_leaf"
+   ],
+   "checked": "2026-10-16",
+   "note": "Leaf 24 kWh 3000–6000 € (atnaujinta), Zoe 41 kWh 7000–12000 €, BMW i3 8000–15000 €, Tesla Model 3 12000–18000 €; Leaf 40 kWh keitimas nuo 2500–3500 € (privatus skelbimas).",
+   "vehicle_type": [
+    "elektromobiliai_hibridai"
+   ]
+  }
+ },
+ "sources": {
+  "akste": {
+   "url": "https://akste.lt/kainorastis",
+   "checked": "2026-10-16"
+  },
+  "autokurtas": {
+   "url": "https://www.autokurtas.lt/remonto-darbu-ikainiai/",
+   "checked": "2026-10-16"
+  },
+  "intrac": {
+   "url": "https://www.intrac.lt/uploads/Lithuania/Kainora%C5%A1tis%202026.05.01.pdf",
+   "checked": "2026-10-16"
+  },
+  "mylas": {
+   "url": "https://mylas.lt/kainos/",
+   "checked": "2026-10-16"
+  },
+  "dagas": {
+   "url": "https://dagas.lt/lt/servisas6/",
+   "checked": "2026-10-16"
+  },
+  "wheelstreet": {
+   "url": "https://www.wheelstreet.lt/zodynas/egr-voztuvas",
+   "checked": "2026-10-16"
+  },
+  "avrc": {
+   "url": "https://avrc.lt/dyzeliniu-varikliu-remontas-alytuje-2026-dpf-filtrai-egr-sistemos/",
+   "checked": "2026-10-16"
+  },
+  "avrc_k": {
+   "url": "https://avrc.lt/kainorastis/",
+   "checked": "2026-10-16"
+  },
+  "autoara": {
+   "url": "https://autoservisas-vilniuje.lt/egr-remontas-isprogramavimas",
+   "checked": "2026-10-16"
+  },
+  "servisas555": {
+   "url": "https://www.servisas555.lt/duslintuvas-2/",
+   "checked": "2026-10-16"
+  },
+  "ladeira": {
+   "url": "https://ladeira.lt/autoserviso-paslaugos-kainos/",
+   "checked": "2026-10-16"
+  },
+  "boltrama": {
+   "url": "https://www.boltrama.lt/kainos",
+   "checked": "2026-10-16"
+  },
+  "svilniuje": {
+   "url": "https://servisasvilniuje.lt/kainos",
+   "checked": "2026-10-16"
+  },
+  "tmt": {
+   "url": "https://www.tmt.lt/valdymo-bloku-remontas-kainos",
+   "checked": "2026-10-16"
+  },
+  "salditurbo": {
+   "url": "https://salditurbo.lt/turbinu-remonto-kainos/",
+   "checked": "2026-10-16"
+  },
+  "chipt": {
+   "url": "https://chiptiuningas.lt/blog/kiek-kainuoja-patikrinti-jetta-vw-autoservise.html",
+   "checked": "2026-10-16"
+  },
+  "toptis": {
+   "url": "https://toptis.lt/automobiliu-remontas/varikliu-remontas/variklio-grandines-keitimas/",
+   "checked": "2026-10-16"
+  },
+  "autopurkstukai": {
+   "url": "https://www.autopurkstukai.lt/kainorastis/",
+   "checked": "2026-10-16"
+  },
+  "proservisai": {
+   "url": "https://proservisai.lt/automobiliu-remonto-kainos",
+   "checked": "2026-10-16"
+  },
+  "asv": {
+   "url": "https://www.automobiliuservisasvilniuje.lt/automobiliu-serviso-kainos",
+   "checked": "2026-10-16"
+  },
+  "motoint_cp": {
+   "url": "https://motointegrator.com/lt/lt/autoservisas/vilnius/zqd9qxw6-cp-servisas",
+   "checked": "2026-10-16"
+  },
+  "p_egrdalys": {
+   "url": "https://www.egrdalys.lt/marke/-chrysler/universalus-deguonies-daviklis-liambda-zondas-1",
+   "checked": "2026-10-16"
+  },
+  "p_autorebus": {
+   "url": "https://www.autorebus.lt/autodalys/kuro-misinio-formavimas/ismetimo-emisijos-valdymas-2",
+   "checked": "2026-10-16"
+  },
+  "p_adp": {
+   "url": "https://autodaliuparduotuve.lt/171-oro-srauto-matuokliai",
+   "checked": "2026-10-16"
+  },
+  "p_ad247_cat": {
+   "url": "https://autodalys247.lt/atsargines-dalys/katalizatoriaus-keitiklis-universalus.html",
+   "checked": "2026-10-16"
+  },
+  "p_rm": {
+   "url": "https://rm-autodalys.lt/oem-code/6039",
+   "checked": "2026-10-16"
+  },
+  "p_ad247_era": {
+   "url": "https://autodalys247.lt/gamintojas/era",
+   "checked": "2026-10-16"
+  },
+  "p_ad1_abs": {
+   "url": "https://www.autodalys1.lt/katalogas/stabdziu-sistema/abs-davikliai",
+   "checked": "2026-10-16"
+  },
+  "aa_bat1": {
+   "url": "https://www.autoaibe.lt/akumuliatoriai/akumuliatoriai-automobiliams~148/yuasa-ybx5054-akumuliatorius-40ah-360a-187x127x223mm-s591500.html",
+   "checked": "2026-10-16"
+  },
+  "aa_bat2": {
+   "url": "https://www.autoaibe.lt/akumuliatoriai/akumuliatoriai-automobiliams~148/tab-magic-akumuliatorius-55ah-560a-205x175x190-s328500.html",
+   "checked": "2026-10-16"
+  },
+  "aa_bat3": {
+   "url": "https://www.autoaibe.lt/akumuliatoriai/akumuliatoriai-automobiliams~148/exide-ea640-akumuliatorius-64ah-640a-242x175x190-s368772.html",
+   "checked": "2026-10-16"
+  },
+  "aa_bat4": {
+   "url": "https://www.autoaibe.lt/akumuliatoriai/akumuliatoriai-automobiliams~148/crom-efb-start-stop-akumuliatorius-72ah-760a-260x173x225-s565431.html",
+   "checked": "2026-10-16"
+  },
+  "aa_bat5": {
+   "url": "https://www.autoaibe.lt/akumuliatoriai/akumuliatoriai-automobiliams~148/varta-595901085j382-akumuliatorius-agm-95ah-850a-353x175x190-s398465.html",
+   "checked": "2026-10-16"
+  },
+  "aa_fuelpump": {
+   "url": "https://www.autoaibe.lt/2025-ktm-xbowconvertible-autodalys/detales/kuro-sistema/kuro-siurbliai-kuro-siurbliu-dalys~82/",
+   "checked": "2026-10-16"
+  },
+  "aa_filters": {
+   "url": "https://www.autoaibe.lt/detales/filtrai/ivairus-filtrai~9/",
+   "checked": "2026-10-16"
+  },
+  "aa_airbag": {
+   "url": "https://www.autoaibe.lt/en/daihatsu-autodalys/spare-parts/interior-parts/seat-belts-and-airbags~245/",
+   "checked": "2026-10-16"
+  },
+  "aa_abs1": {
+   "url": "https://www.autoaibe.lt/detales/stabdziu-sistema/stabdziu-valdymas~188/abs-30563-abs-daviklis-s248221.html",
+   "checked": "2026-10-16"
+  },
+  "aa_abs2": {
+   "url": "https://www.autoaibe.lt/detales/stabdziu-sistema/stabdziu-valdymas~188/?f.brand=ABAKUS",
+   "checked": "2026-10-16"
+  },
+  "p_ad247_evap1": {
+   "url": "https://autodalys247.lt/nty-122734986.html",
+   "checked": "2026-10-16"
+  },
+  "p_ad247_evap2": {
+   "url": "https://autodalys247.lt/nty-122729578.html",
+   "checked": "2026-10-16"
+  },
+  "p_ad247_th": {
+   "url": "https://autodalys247.lt/atsargines-dalys/termostatas/eps.html",
+   "checked": "2026-10-16"
+  },
+  "htl": {
+   "url": "https://www.htl.lt/en/service",
+   "checked": "2026-10-16"
+  },
+  "keliuprieziura": {
+   "url": "https://keliuprieziura.lt/paslaugos/transporto-ir-technikos-servisas/468",
+   "checked": "2026-10-16"
+  },
+  "yomoto": {
+   "url": "https://yomoto.lt/diagnostika/",
+   "checked": "2026-10-16"
+  },
+  "motodiag": {
+   "url": "https://motodiagnostika.lt/",
+   "checked": "2026-10-16"
+  },
+  "motoinn": {
+   "url": "https://motoinn.lt/motociklu-serviso-darbai/",
+   "checked": "2026-10-16"
+  },
+  "baysport": {
+   "url": "https://moto-baysport.lt/lt/content/12-servisas",
+   "checked": "2026-10-16"
+  },
+  "autohib": {
+   "url": "https://autohib.lt/services/hibridiniu-automobiliu-bateriju-remontas/",
+   "checked": "2026-10-16"
+  },
+  "osw": {
+   "url": "http://www.osw.lt/",
+   "checked": "2026-10-16"
+  },
+  "wheelstreet_ev": {
+   "url": "https://www.wheelstreet.lt/zodynas/baterija-ev",
+   "checked": "2026-10-16"
+  },
+  "autoplius_leaf": {
+   "url": "https://en.autoplius.lt/ads/nissan-leaf-nissan-leaf-baterijos-40kwh-62kwh-keitimas-remont-nissan-leaf-b-31453832.html",
+   "checked": "2026-10-16"
+  },
+  "vezejugidas": {
+   "url": "https://www.vezejugidas.lt/baterijos-keitimo-kaina-ar-apsimoka-toliau-naudoti-elektromobili/",
+   "checked": "2026-10-16"
+  }
+ },
+ "gaps": [
+  "Inverterio ir borto įkroviklio (OBC) remonto viešų LT kainų nerasta (hibridai.lt, autoservisaivilniuje.lt, automobiliu-servisas.lt remontuoja, bet kainų neskelbia).",
+  "Autobusų ir kemperių atskirų kainoraščių nerasta – taikyti sunkvežimių / furgonų įkainius.",
+  "Motociklų dalių kainų LT parduotuvėse netikrinta."
+ ]
+}

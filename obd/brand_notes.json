@@ -1,0 +1,1429 @@
+{
+ "generated": "2026-10-16",
+ "note": "Faktai iš viešų šaltinių, tekstas parašytas savais žodžiais. Kainos – iš prices_lt.json raktų (cost_basis) arba „ivertinimas“ (null = nėra duomenų). confidence: kiek tvirtai faktą patvirtina šaltinis.",
+ "count": 44,
+ "brands": [
+  "autobusai_bendra",
+  "bmw",
+  "fiat",
+  "ford",
+  "honda",
+  "hyundai_kia",
+  "iveco",
+  "mazda",
+  "mercedes",
+  "mitsubishi",
+  "motociklai_bendra",
+  "nissan",
+  "opel",
+  "peugeot_citroen",
+  "renault_dacia",
+  "subaru",
+  "sunkvezimiai_bendra",
+  "tesla",
+  "toyota_lexus",
+  "volvo",
+  "vw_audi_skoda_seat",
+  "zemes_ukio_bendra"
+ ],
+ "entries": [
+  {
+   "brand": "vw_audi_skoda_seat",
+   "models": [
+    "VW Golf VI",
+    "VW Passat B6/B7",
+    "Škoda Octavia II",
+    "Audi A4 B8"
+   ],
+   "engine": "2.0 / 1.6 TDI EA189",
+   "fault_lt": "Šie varikliai pateko į 2015 m. dyzelino emisijų skandalą; gamintojas atnaujino programinę įrangą (kai kur ir oro srauto tinklelį). Po atnaujinimo savininkai dažniau skundžiasi EGR ir DPF užsikimšimu.",
+   "related_codes": [
+    "P0401",
+    "P0402",
+    "P2002",
+    "P2463",
+    "P0299"
+   ],
+   "symptoms_lt": [
+    "Užsidega variklio lemputė",
+    "Silpnesnė trauka",
+    "Dažnos DPF regeneracijos"
+   ],
+   "cost_eur_lt": [
+    50,
+    1000
+   ],
+   "cost_basis": "egr_valymas / dpf_valymas",
+   "buyer_checks_lt": [
+    "Patikrinti, ar atliktas atšaukimo akcijos atnaujinimas (VIN – pas oficialų atstovą)",
+    "Nuskaityti EGR ir DPF klaidas, pažiūrėti DPF suodžių kiekį",
+    "Bandomuoju važiavimu patikrinti, ar nėra traukos kritimo"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Volkswagen_emissions_scandal"
+   ],
+   "confidence": "aukštas",
+   "vehicle_type": "lengvieji"
+  },
+  {
+   "brand": "vw_audi_skoda_seat",
+   "models": [
+    "VW Golf",
+    "Škoda Octavia",
+    "Seat Leon",
+    "Audi A3"
+   ],
+   "engine": "DSG DQ200 (7 pavarų, sausa sankaba)",
+   "fault_lt": "Septynių pavarų DSG su sausa sankaba linkusi į mechatroniko ir sankabos gedimus; gamintojas yra pratęsęs jai garantiją ir skelbęs atšaukimus.",
+   "related_codes": [
+    "P0841",
+    "P0700"
+   ],
+   "symptoms_lt": [
+    "Trūkčiojimas pajudant",
+    "Mirksi pavarų indikatorius",
+    "Dingsta pavaros"
+   ],
+   "cost_eur_lt": [
+    350,
+    1360
+   ],
+   "cost_basis": "dsg_mechatronikas",
+   "buyer_checks_lt": [
+    "Važiuojant lėtai kamštyje patikrinti, ar nėra trūkčiojimų",
+    "Nuskaityti pavarų dėžės klaidas",
+    "Paklausti apie mechatroniko ar sankabos keitimą (sąskaitos)"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Direct-Shift_Gearbox"
+   ],
+   "confidence": "aukštas",
+   "vehicle_type": "lengvieji"
+  },
+  {
+   "brand": "bmw",
+   "models": [
+    "BMW 1, 3, 5 serija, X1, X3 (~2007–2014)"
+   ],
+   "engine": "N47 dyzelinis",
+   "fault_lt": "N47 paskirstymo grandinė yra variklio gale, todėl jos tempimasis ir kreiptuvų dilimas brangiai taisomas – dažnai reikia išimti variklį.",
+   "related_codes": [
+    "P0016",
+    "P0335",
+    "P0340"
+   ],
+   "symptoms_lt": [
+    "Barškėjimas iš variklio galo, ypač užvedus",
+    "Klaidos dėl alkūninio ir skirstomojo velenų neatitikimo"
+   ],
+   "cost_eur_lt": [
+    600,
+    2000
+   ],
+   "cost_basis": "grandine",
+   "buyer_checks_lt": [
+    "Klausytis šalto užvedimo – metalinis barškėjimas iš galo",
+    "Prašyti grandinės keitimo įrodymo",
+    "Diagnostika velenų koreliacijos klaidoms"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/BMW_N47"
+   ],
+   "confidence": "aukštas",
+   "vehicle_type": "lengvieji"
+  },
+  {
+   "brand": "bmw",
+   "models": [
+    "BMW 3, 5, 7 serija, X5, X6"
+   ],
+   "engine": "N57 / N47 dyzelinis",
+   "fault_lt": "2018 m. BMW Europoje atšaukė daugybę dyzelinių automobilių dėl EGR aušintuvo nuotėkio, galinčio sukelti gaisrą įsiurbimo sistemoje.",
+   "related_codes": [
+    "P0401",
+    "P0404",
+    "P0420"
+   ],
+   "symptoms_lt": [
+    "Degėsių kvapas",
+    "Aušinimo skysčio nuostoliai",
+    "EGR klaidos"
+   ],
+   "cost_eur_lt": [
+    200,
+    1000
+   ],
+   "cost_basis": "egr_keitimas",
+   "buyer_checks_lt": [
+    "Per oficialų atstovą patikrinti, ar atlikta EGR aušintuvo atšaukimo akcija",
+    "Stebėti aušinimo skysčio lygį"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/BMW_N57"
+   ],
+   "confidence": "vidutinis",
+   "vehicle_type": "visureigiai_4x4"
+  },
+  {
+   "brand": "mercedes",
+   "models": [
+    "C, E klasė, Sprinter, Vito (2008+)"
+   ],
+   "engine": "OM651 2.1 CDI",
+   "fault_lt": "Ankstyvieji OM651 su pjezo purkštukais turėjo purkštukų gedimų, dėl kurių buvo serviso akcijos ir keitimai.",
+   "related_codes": [
+    "P0200",
+    "P0201",
+    "P0202",
+    "P0263",
+    "P0087"
+   ],
+   "symptoms_lt": [
+    "Nelygus darbas",
+    "Sunkus užvedimas",
+    "Dūmija"
+   ],
+   "cost_eur_lt": [
+    1000,
+    4000
+   ],
+   "cost_basis": "common_rail",
+   "buyer_checks_lt": [
+    "Paklausti, ar purkštukai keisti / koduoti",
+    "Atlikti purkštukų korekcijų ir nutekėjimo testą"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Mercedes-Benz_OM651_engine"
+   ],
+   "confidence": "vidutinis",
+   "vehicle_type": "lengvieji"
+  },
+  {
+   "brand": "mercedes",
+   "models": [
+    "C klasė W203/W204, E klasė W211, SLK"
+   ],
+   "engine": "M271 1.8 Kompressor",
+   "fault_lt": "Ankstyvuosiuose M271 varikliuose pasitaiko paskirstymo grandinės ir jos įtempiklio dilimo bei skirstomojo veleno reguliatoriaus gedimų.",
+   "related_codes": [
+    "P0016",
+    "P0017",
+    "P0011"
+   ],
+   "symptoms_lt": [
+    "Barškėjimas užvedus",
+    "Variklio lemputė"
+   ],
+   "cost_eur_lt": [
+    600,
+    2000
+   ],
+   "cost_basis": "grandine",
+   "buyer_checks_lt": [
+    "Klausytis šalto užvedimo",
+    "Patikrinti velenų padėties klaidas"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Mercedes-Benz_M271_engine"
+   ],
+   "confidence": "vidutinis",
+   "vehicle_type": "lengvieji"
+  },
+  {
+   "brand": "toyota_lexus",
+   "models": [
+    "Toyota Avensis, RAV4, Auris, Corolla Verso"
+   ],
+   "engine": "2.0/2.2 D-4D (AD serija)",
+   "fault_lt": "AD serijos dyzeliai (ypač 2.2) žinomi dėl padidėjusio alyvos sunaudojimo, suodžių ir galvutės tarpinės problemų.",
+   "related_codes": [
+    "P0401",
+    "P2002",
+    "P0300"
+   ],
+   "symptoms_lt": [
+    "Alyvos sunaudojimas",
+    "Aušinimo skysčio nuostoliai",
+    "Dūmija"
+   ],
+   "cost_eur_lt": [
+    50,
+    2000
+   ],
+   "cost_basis": "ivertinimas",
+   "buyer_checks_lt": [
+    "Paklausti apie alyvos sąnaudas",
+    "Patikrinti aušinimo skysčio lygį ir ar nėra išmetamųjų dujų jame",
+    "Prašyti garantinio remonto istorijos"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Toyota_AD_engine"
+   ],
+   "confidence": "vidutinis",
+   "vehicle_type": "visureigiai_4x4"
+  },
+  {
+   "brand": "toyota_lexus",
+   "models": [
+    "Toyota Prius, Auris/Corolla Hybrid, RAV4 Hybrid, Lexus CT/RX"
+   ],
+   "engine": "Hibridinė pavara (HSD)",
+   "fault_lt": "Hibridinės sistemos patikimos, bet senstant mažėja traukos baterijos talpa; seniems modeliams būdingi keitiklio aušinimo siurblio gedimai.",
+   "related_codes": [
+    "P0A80",
+    "P0A7F",
+    "P0A93"
+   ],
+   "symptoms_lt": [
+    "Užsidega hibrido įspėjimas",
+    "Dažnai įsijungia benzininis variklis",
+    "Mažėja elektra nuvažiuojamas atstumas"
+   ],
+   "cost_eur_lt": null,
+   "cost_basis": "ivertinimas",
+   "buyer_checks_lt": [
+    "Hibrido diagnostika – baterijos blokų įtampų skirtumai",
+    "Patikrinti keitiklio aušinimo siurblio veikimą",
+    "Prašyti hibrido patikros (Toyota „Hybrid Health Check“) ataskaitos"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Toyota_Prius"
+   ],
+   "confidence": "vidutinis",
+   "vehicle_type": "elektromobiliai_hibridai"
+  },
+  {
+   "brand": "ford",
+   "models": [
+    "Ford Focus III, Fiesta, Mondeo, C-Max"
+   ],
+   "engine": "PowerShift DPS6 / 6DCT",
+   "fault_lt": "Sausos sankabos PowerShift dėžės buvo daug skundų dėl trūkčiojimo ir sankabos gedimų; vyko teismo procesai ir pratęstos garantijos.",
+   "related_codes": [
+    "P0700",
+    "P0715",
+    "P0900"
+   ],
+   "symptoms_lt": [
+    "Trūkčiojimas pajudant",
+    "Vėluojantys perjungimai"
+   ],
+   "cost_eur_lt": [
+    50,
+    100
+   ],
+   "cost_basis": "pavaru_adaptacija",
+   "buyer_checks_lt": [
+    "Bandomasis važiavimas mieste",
+    "Nuskaityti pavarų dėžės klaidas",
+    "Prašyti sankabos keitimo istorijos"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ford_PowerShift_transmission"
+   ],
+   "confidence": "aukštas",
+   "vehicle_type": "lengvieji"
+  },
+  {
+   "brand": "ford",
+   "models": [
+    "Ford Focus, Fiesta, Kuga, C-Max"
+   ],
+   "engine": "1.0 / 1.6 EcoBoost",
+   "fault_lt": "Kai kuriems EcoBoost varikliams buvo atšaukimai dėl perkaitimo rizikos ir aušinimo sistemos problemų.",
+   "related_codes": [
+    "P0217",
+    "P0128",
+    "P0299"
+   ],
+   "symptoms_lt": [
+    "Aušinimo skysčio nuostoliai",
+    "Perkaitimo įspėjimas"
+   ],
+   "cost_eur_lt": null,
+   "cost_basis": "ivertinimas",
+   "buyer_checks_lt": [
+    "Patikrinti aušinimo skysčio lygį ir nuotėkius",
+    "Patikrinti atšaukimo akcijas pagal VIN"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ford_EcoBoost_engine"
+   ],
+   "confidence": "vidutinis",
+   "vehicle_type": "lengvieji"
+  },
+  {
+   "brand": "opel",
+   "models": [
+    "Opel Insignia A, Astra J"
+   ],
+   "engine": "2.0 CDTI",
+   "fault_lt": "Dyzeliniai Insignia dažnai važinėja trumpus atstumus – tai lemia DPF ir EGR užsikimšimą; bendras dyzelinių variklių rizikos taškas.",
+   "related_codes": [
+    "P2002",
+    "P2463",
+    "P0401"
+   ],
+   "symptoms_lt": [
+    "Dažnos regeneracijos",
+    "Avarinis režimas"
+   ],
+   "cost_eur_lt": [
+    24,
+    400
+   ],
+   "cost_basis": "dpf_valymas",
+   "buyer_checks_lt": [
+    "Nuskaityti DPF klaidas ir suodžių kiekį",
+    "Važiuoti greitkeliu – ar nedingsta trauka"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Opel_Insignia"
+   ],
+   "confidence": "žemas",
+   "vehicle_type": "lengvieji"
+  },
+  {
+   "brand": "renault_dacia",
+   "models": [
+    "Renault Megane, Clio, Scenic, Dacia Duster, Logan"
+   ],
+   "engine": "1.5 dCi (K9K)",
+   "fault_lt": "Labai paplitęs dyzelis. Žinomi švaistiklio guolių susidėvėjimo atvejai (ypač retai keičiant alyvą) ir purkštukų bei EGR gedimai.",
+   "related_codes": [
+    "P0087",
+    "P0201",
+    "P0401",
+    "P0524"
+   ],
+   "symptoms_lt": [
+    "Variklio barškėjimas",
+    "Žemo alyvos slėgio įspėjimas"
+   ],
+   "cost_eur_lt": [
+    1000,
+    4000
+   ],
+   "cost_basis": "common_rail",
+   "buyer_checks_lt": [
+    "Patikrinti alyvos keitimo istoriją",
+    "Klausytis šilto variklio barškėjimo",
+    "Patikrinti alyvos slėgio įspėjimus"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Renault_Megane",
+    "https://en.wikipedia.org/wiki/Dacia_Duster"
+   ],
+   "confidence": "žemas",
+   "vehicle_type": "visureigiai_4x4"
+  },
+  {
+   "brand": "peugeot_citroen",
+   "models": [
+    "Peugeot 207, 308, 3008, Citroën C4, Mini"
+   ],
+   "engine": "1.6 THP / VTi (Prince)",
+   "fault_lt": "Prince varikliams būdingas paskirstymo grandinės tempimasis, padidėjęs alyvos sunaudojimas ir suodžių sankaupos ant įsiurbimo vožtuvų.",
+   "related_codes": [
+    "P0016",
+    "P0300",
+    "P0171"
+   ],
+   "symptoms_lt": [
+    "Barškėjimas užvedus",
+    "Nelygi laisvoji eiga"
+   ],
+   "cost_eur_lt": [
+    600,
+    2000
+   ],
+   "cost_basis": "grandine",
+   "buyer_checks_lt": [
+    "Klausytis šalto užvedimo",
+    "Paklausti apie grandinės keitimą",
+    "Patikrinti alyvos sąnaudas"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Prince_engine"
+   ],
+   "confidence": "aukštas",
+   "vehicle_type": "lengvieji"
+  },
+  {
+   "brand": "peugeot_citroen",
+   "models": [
+    "Peugeot 307, 308, Citroën C4, C5"
+   ],
+   "engine": "1.6 HDi / e-HDi",
+   "fault_lt": "Kai kurios HDi versijos naudoja DPF su priedų (Eolys) bakeliu – jam ištuštėjus filtras užsikemša. Taip pat dažnos purkštukų poveržlių ir turbinos problemos.",
+   "related_codes": [
+    "P2002",
+    "P2463",
+    "P0299"
+   ],
+   "symptoms_lt": [
+    "DPF įspėjimas",
+    "Dūmija",
+    "Silpna trauka"
+   ],
+   "cost_eur_lt": [
+    24,
+    400
+   ],
+   "cost_basis": "dpf_valymas",
+   "buyer_checks_lt": [
+    "Patikrinti priedų skysčio lygį diagnostika",
+    "Patikrinti turbinos tepimo vamzdelio būklę",
+    "Apžiūrėti suodžius ties purkštukais"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/PSA_HDi_engine"
+   ],
+   "confidence": "vidutinis",
+   "vehicle_type": "lengvieji"
+  },
+  {
+   "brand": "volvo",
+   "models": [
+    "Volvo XC60, XC90, V70, S60"
+   ],
+   "engine": "D5 / 2.4D (5 cil.)",
+   "fault_lt": "Didelės ridos D5 dažnai turi EGR, įsiurbimo kolektoriaus sklendžių ir turbinos problemų.",
+   "related_codes": [
+    "P0401",
+    "P2004",
+    "P0299"
+   ],
+   "symptoms_lt": [
+    "Silpna trauka",
+    "Variklio lemputė"
+   ],
+   "cost_eur_lt": [
+    50,
+    300
+   ],
+   "cost_basis": "egr_valymas",
+   "buyer_checks_lt": [
+    "Nuskaityti klaidas",
+    "Patikrinti turbinos garus ir dūmijimą",
+    "Paklausti apie paskirstymo diržo keitimą"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Volvo_Modular_engine",
+    "https://en.wikipedia.org/wiki/Volvo_XC60"
+   ],
+   "confidence": "žemas",
+   "vehicle_type": "visureigiai_4x4"
+  },
+  {
+   "brand": "honda",
+   "models": [
+    "Honda Civic, Accord, CR-V"
+   ],
+   "engine": "2.2 i-DTEC (N22)",
+   "fault_lt": "Dyzeliniai Honda varikliai patikimi, bet trumpi važiavimai lemia DPF užsikimšimą ir alyvos lygio kilimą.",
+   "related_codes": [
+    "P2002",
+    "P2463"
+   ],
+   "symptoms_lt": [
+    "DPF įspėjimas"
+   ],
+   "cost_eur_lt": [
+    24,
+    400
+   ],
+   "cost_basis": "dpf_valymas",
+   "buyer_checks_lt": [
+    "Patikrinti alyvos lygį (ar nepakilęs)",
+    "Nuskaityti DPF klaidas"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Honda_N_engine",
+    "https://en.wikipedia.org/wiki/Honda_Civic"
+   ],
+   "confidence": "žemas",
+   "vehicle_type": "lengvieji"
+  },
+  {
+   "brand": "nissan",
+   "models": [
+    "Nissan Qashqai, Juke, X-Trail"
+   ],
+   "engine": "1.5 dCi / CVT",
+   "fault_lt": "Qashqai su 1.5 dCi dalijasi Renault K9K varikliu (žr. Renault). X-Trail ir kiti su CVT – dėžės perkaitimas ir dilimas.",
+   "related_codes": [
+    "P0087",
+    "P0401",
+    "P0744",
+    "P0841"
+   ],
+   "symptoms_lt": [
+    "Vibracija pajudant",
+    "Ūžesys iš dėžės"
+   ],
+   "cost_eur_lt": [
+    50,
+    100
+   ],
+   "cost_basis": "pavaru_adaptacija",
+   "buyer_checks_lt": [
+    "Bandomasis važiavimas – ar CVT neūžia ir netrūkčioja",
+    "Paklausti apie CVT alyvos keitimą"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Nissan_Qashqai",
+    "https://en.wikipedia.org/wiki/Nissan_X-Trail"
+   ],
+   "confidence": "žemas",
+   "vehicle_type": "visureigiai_4x4"
+  },
+  {
+   "brand": "hyundai_kia",
+   "models": [
+    "Hyundai Sonata, Santa Fe, Tucson, Kia Optima, Sportage, Sorento"
+   ],
+   "engine": "Theta II 2.0 / 2.4 benzinas",
+   "fault_lt": "Theta II varikliams vyko dideli atšaukimai JAV dėl švaistiklio guolių gedimo (metalo drožlės), galinčio sustabdyti variklį.",
+   "related_codes": [
+    "P0300",
+    "P0521",
+    "P0524"
+   ],
+   "symptoms_lt": [
+    "Barškėjimas",
+    "Variklio užgesimas",
+    "Žemo alyvos slėgio įspėjimas"
+   ],
+   "cost_eur_lt": null,
+   "cost_basis": "ivertinimas",
+   "buyer_checks_lt": [
+    "Patikrinti atšaukimus pagal VIN",
+    "Klausytis variklio barškėjimo",
+    "Paklausti apie variklio keitimą pagal akciją"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Hyundai_Theta_engine",
+    "https://en.wikipedia.org/wiki/Hyundai_Tucson"
+   ],
+   "confidence": "aukštas",
+   "vehicle_type": "visureigiai_4x4"
+  },
+  {
+   "brand": "hyundai_kia",
+   "models": [
+    "Hyundai i30, Kia Ceed"
+   ],
+   "engine": "1.6 CRDi (U serija)",
+   "fault_lt": "Dažniausios problemos – DPF ir EGR užsikimšimas važinėjant mieste, kai kuriems – turbinos gedimai.",
+   "related_codes": [
+    "P2002",
+    "P0401",
+    "P0299"
+   ],
+   "symptoms_lt": [
+    "Avarinis režimas",
+    "Silpna trauka"
+   ],
+   "cost_eur_lt": [
+    24,
+    400
+   ],
+   "cost_basis": "dpf_valymas",
+   "buyer_checks_lt": [
+    "Nuskaityti DPF klaidas",
+    "Patikrinti turbinos tarpą ir alyvos nuotėkius"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Hyundai_U_engine",
+    "https://en.wikipedia.org/wiki/Kia_Ceed"
+   ],
+   "confidence": "žemas",
+   "vehicle_type": "lengvieji"
+  },
+  {
+   "brand": "mazda",
+   "models": [
+    "Mazda 6, CX-5"
+   ],
+   "engine": "2.2 Skyactiv-D",
+   "fault_lt": "Skyactiv-D varikliams, dažnai važinėjant trumpus atstumus, kyla alyvos skiedimo dyzelinu ir DPF problemų.",
+   "related_codes": [
+    "P2002",
+    "P2463",
+    "P0521"
+   ],
+   "symptoms_lt": [
+    "Kyla alyvos lygis",
+    "DPF įspėjimas"
+   ],
+   "cost_eur_lt": [
+    24,
+    400
+   ],
+   "cost_basis": "dpf_valymas",
+   "buyer_checks_lt": [
+    "Patikrinti alyvos lygį ir kvapą (dyzelinas)",
+    "Nuskaityti DPF klaidas"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Mazda_6",
+    "https://en.wikipedia.org/wiki/Mazda_CX-5"
+   ],
+   "confidence": "žemas",
+   "vehicle_type": "visureigiai_4x4"
+  },
+  {
+   "brand": "mitsubishi",
+   "models": [
+    "Mitsubishi Outlander PHEV, ASX"
+   ],
+   "engine": "PHEV / 4N1 dyzelis",
+   "fault_lt": "Outlander PHEV – traukos baterijos talpos mažėjimas ir įkrovimo sistemos klaidos; 4N1 dyzeliams – DPF ir EGR.",
+   "related_codes": [
+    "P0A80",
+    "P0AFA",
+    "P2002"
+   ],
+   "symptoms_lt": [
+    "Mažesnis elektra nuvažiuojamas atstumas",
+    "Įkrovimo klaidos"
+   ],
+   "cost_eur_lt": null,
+   "cost_basis": "ivertinimas",
+   "buyer_checks_lt": [
+    "Diagnostika baterijos talpai (SOH)",
+    "Patikrinti įkrovimą per kroviklį"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Mitsubishi_Outlander",
+    "https://en.wikipedia.org/wiki/Mitsubishi_4N1_engine"
+   ],
+   "confidence": "žemas",
+   "vehicle_type": "elektromobiliai_hibridai"
+  },
+  {
+   "brand": "subaru",
+   "models": [
+    "Subaru Forester, Impreza, Legacy, Outback"
+   ],
+   "engine": "EJ serijos boksininis (ypač EJ25)",
+   "fault_lt": "EJ25 varikliams būdingi galvutės tarpinės nuotėkiai, dėl kurių pradingsta aušinimo skystis ar perkaista variklis.",
+   "related_codes": [
+    "P0128",
+    "P0217",
+    "P0300"
+   ],
+   "symptoms_lt": [
+    "Aušinimo skysčio nuostoliai",
+    "Alyvos nuotėkiai ties galvutėmis",
+    "Perkaitimas"
+   ],
+   "cost_eur_lt": null,
+   "cost_basis": "ivertinimas",
+   "buyer_checks_lt": [
+    "Apžiūrėti galvučių tarpines dėl nuotėkių",
+    "Patikrinti aušinimo skystį dėl išmetamųjų dujų",
+    "Paklausti apie tarpinių keitimą"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Subaru_EJ_engine",
+    "https://en.wikipedia.org/wiki/Subaru_Forester"
+   ],
+   "confidence": "aukštas",
+   "vehicle_type": "visureigiai_4x4"
+  },
+  {
+   "brand": "fiat",
+   "models": [
+    "Fiat 500, Panda, Punto"
+   ],
+   "engine": "1.2 FIRE / Dualogic",
+   "fault_lt": "Robotizuota Dualogic dėžė linkusi į hidraulinio bloko ir sankabos pavaros gedimus; pats FIRE variklis paprastas ir patikimas.",
+   "related_codes": [
+    "P0700",
+    "P0900",
+    "P0810"
+   ],
+   "symptoms_lt": [
+    "Nesijungia pavaros",
+    "Pypsėjimas ir įspėjimas „F“"
+   ],
+   "cost_eur_lt": [
+    50,
+    100
+   ],
+   "cost_basis": "pavaru_adaptacija",
+   "buyer_checks_lt": [
+    "Patikrinti pavarų jungimąsi iš vietos ir atbuline",
+    "Nuskaityti dėžės klaidas"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Fiat_500_(2007)",
+    "https://en.wikipedia.org/wiki/FIRE_engine"
+   ],
+   "confidence": "žemas",
+   "vehicle_type": "lengvieji"
+  },
+  {
+   "brand": "tesla",
+   "models": [
+    "Tesla Model S, Model X (iki 2018)"
+   ],
+   "engine": "MCU (multimedijos kompiuteris)",
+   "fault_lt": "Ankstyvųjų Model S/X multimedijos kompiuterio eMMC atmintis susidėvi – 2021 m. NHTSA reikalavimu Tesla atšaukė automobilius, nes gali neveikti galinio vaizdo kamera ir rūko šalinimas.",
+   "related_codes": [],
+   "symptoms_lt": [
+    "Užstringa ar persikrauna ekranas",
+    "Neveikia galinio vaizdo kamera"
+   ],
+   "cost_eur_lt": null,
+   "cost_basis": "ivertinimas",
+   "buyer_checks_lt": [
+    "Patikrinti, ar MCU atnaujintas pagal akciją",
+    "Patikrinti ekrano reakciją ir kamerą"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tesla_Model_S"
+   ],
+   "confidence": "aukštas",
+   "vehicle_type": "elektromobiliai_hibridai"
+  },
+  {
+   "brand": "tesla",
+   "models": [
+    "Tesla Model 3, Model Y"
+   ],
+   "engine": "Elektrinė pavara",
+   "fault_lt": "Gamintojo kodai nestandartiniai (ne OBD-II), todėl bendrieji kodai mažai naudingi; patikrai reikia Tesla programėlės / serviso ataskaitos.",
+   "related_codes": [],
+   "symptoms_lt": [
+    "Įspėjimai ekrane"
+   ],
+   "cost_eur_lt": null,
+   "cost_basis": "ivertinimas",
+   "buyer_checks_lt": [
+    "Paprašyti Tesla serviso istorijos",
+    "Patikrinti baterijos talpą (nuvažiuojamą atstumą 100 %)"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tesla_Model_3"
+   ],
+   "confidence": "vidutinis",
+   "vehicle_type": "elektromobiliai_hibridai"
+  },
+  {
+   "vehicle_type": "furgonai_lengvieji_komerciniai",
+   "brand": "vw_audi_skoda_seat",
+   "models": [
+    "VW Transporter T5/T6"
+   ],
+   "engine": "2.0 TDI",
+   "fault_lt": "Dažniausi rūpesčiai – EGR ir DPF užsikimšimas važinėjant mieste, dvigubos masės smagračio dilimas didelės ridos furgonuose; dalis T5 2.0 TDI variklių pateko į EA189 emisijų atšaukimą.",
+   "related_codes": [
+    "P0401",
+    "P2002",
+    "P2463"
+   ],
+   "symptoms_lt": [
+    "Vibracija pajudant",
+    "Avarinis režimas"
+   ],
+   "cost_eur_lt": [
+    24,
+    400
+   ],
+   "cost_basis": "dpf_valymas",
+   "buyer_checks_lt": [
+    "Patikrinti atšaukimo akcijas pagal VIN",
+    "Nuskaityti EGR/DPF klaidas",
+    "Patikrinti sankabos ir smagračio vibraciją"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Volkswagen_Transporter",
+    "https://en.wikipedia.org/wiki/Volkswagen_emissions_scandal"
+   ],
+   "confidence": "vidutinis"
+  },
+  {
+   "vehicle_type": "furgonai_lengvieji_komerciniai",
+   "brand": "vw_audi_skoda_seat",
+   "models": [
+    "VW Crafter (2017+)"
+   ],
+   "engine": "2.0 TDI",
+   "fault_lt": "Naujos kartos Crafter turi SCR / AdBlue sistemą – NOx jutiklių ir AdBlue šildytuvo gedimai gali įjungti užvedimo ribojimą.",
+   "related_codes": [
+    "P20EE",
+    "P2BAD",
+    "P20B9"
+   ],
+   "symptoms_lt": [
+    "AdBlue įspėjimas",
+    "Ribojamas užvedimų skaičius"
+   ],
+   "cost_eur_lt": [
+    24,
+    300
+   ],
+   "cost_basis": "adblue_nox",
+   "buyer_checks_lt": [
+    "Nuskaityti SCR klaidas",
+    "Patikrinti AdBlue lygį ir kokybę"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Volkswagen_Crafter",
+    "https://en.wikipedia.org/wiki/Selective_catalytic_reduction"
+   ],
+   "confidence": "žemas"
+  },
+  {
+   "vehicle_type": "furgonai_lengvieji_komerciniai",
+   "brand": "mercedes",
+   "models": [
+    "Mercedes Sprinter (W906), Vito (W639/W447)"
+   ],
+   "engine": "OM651 / OM642",
+   "fault_lt": "Senesniems Sprinter ir Vito būdinga kėbulo korozija; OM642 V6 – alyvos aušintuvo tarpinių nuotėkiai, OM651 – purkštukų problemos.",
+   "related_codes": [
+    "P0200",
+    "P0087",
+    "P0401"
+   ],
+   "symptoms_lt": [
+    "Rūdys ties slenksčiais ir durimis",
+    "Alyvos nuotėkiai variklio „V“ viduje"
+   ],
+   "cost_eur_lt": [
+    1000,
+    4000
+   ],
+   "cost_basis": "common_rail",
+   "buyer_checks_lt": [
+    "Apžiūrėti kėbulą iš apačios ir durų apačias",
+    "Patikrinti alyvos nuotėkius",
+    "Purkštukų korekcijų testas"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Mercedes-Benz_Sprinter",
+    "https://en.wikipedia.org/wiki/Mercedes-Benz_Vito",
+    "https://en.wikipedia.org/wiki/Mercedes-Benz_OM642_engine",
+    "https://en.wikipedia.org/wiki/Mercedes-Benz_OM651_engine"
+   ],
+   "confidence": "vidutinis"
+  },
+  {
+   "vehicle_type": "furgonai_lengvieji_komerciniai",
+   "brand": "ford",
+   "models": [
+    "Ford Transit (2006+)"
+   ],
+   "engine": "2.2 / 2.4 TDCi Duratorq, 2.0 EcoBlue",
+   "fault_lt": "Didelės ridos Transit dažnai turi purkštukų, dvigubos masės smagračio ir EGR gedimų; naujesniuose 2.0 EcoBlue – SCR / AdBlue sistemos gedimai.",
+   "related_codes": [
+    "P0401",
+    "P0087",
+    "P20EE"
+   ],
+   "symptoms_lt": [
+    "Sunkus užvedimas",
+    "Dūmija",
+    "AdBlue įspėjimas"
+   ],
+   "cost_eur_lt": [
+    1000,
+    4000
+   ],
+   "cost_basis": "common_rail",
+   "buyer_checks_lt": [
+    "Patikrinti purkštukų korekcijas",
+    "Paklausti apie sankabos/smagračio keitimą",
+    "Nuskaityti SCR klaidas"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ford_Transit",
+    "https://en.wikipedia.org/wiki/Ford_Duratorq_engine"
+   ],
+   "confidence": "žemas"
+  },
+  {
+   "vehicle_type": "furgonai_lengvieji_komerciniai",
+   "brand": "renault_dacia",
+   "models": [
+    "Renault Master, Trafic, Opel Movano B, Opel Vivaro A/B, Nissan NV400"
+   ],
+   "engine": "2.3 dCi / 1.6 dCi",
+   "fault_lt": "Master ir Trafic gaminami ir su Opel bei Nissan ženklais, todėl gedimai bendri: turbinos, purkštukų ir EGR problemos dyzeliuose.",
+   "related_codes": [
+    "P0299",
+    "P0401",
+    "P0087"
+   ],
+   "symptoms_lt": [
+    "Silpna trauka",
+    "Variklio lemputė"
+   ],
+   "cost_eur_lt": [
+    280,
+    750
+   ],
+   "cost_basis": "turbina",
+   "buyer_checks_lt": [
+    "Patikrinti turbinos tarpą ir alyvą įsiurbime",
+    "Nuskaityti klaidas"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Renault_Master",
+    "https://en.wikipedia.org/wiki/Renault_Trafic",
+    "https://en.wikipedia.org/wiki/Opel_Vivaro"
+   ],
+   "confidence": "žemas"
+  },
+  {
+   "vehicle_type": "furgonai_lengvieji_komerciniai",
+   "brand": "fiat",
+   "models": [
+    "Fiat Ducato, Peugeot Boxer, Citroën Jumper (taip pat Opel Movano C nuo 2021)"
+   ],
+   "engine": "2.0 / 2.3 Multijet, 2.2 HDi",
+   "fault_lt": "Šie furgonai – tas pats automobilis su skirtingais ženklais ir dažniausia kemperių bazė Europoje. Didelės ridos egzemplioriuose dažni EGR, DPF ir turbinos gedimai, kėbulo korozija.",
+   "related_codes": [
+    "P0401",
+    "P2002",
+    "P0299"
+   ],
+   "symptoms_lt": [
+    "Avarinis režimas",
+    "Silpna trauka"
+   ],
+   "cost_eur_lt": [
+    24,
+    400
+   ],
+   "cost_basis": "dpf_valymas",
+   "buyer_checks_lt": [
+    "Kemperiui – patikrinti ir bazinį automobilį, ir gyvenamąją dalį (drėgmė, dujos, gyvenamosios dalies akumuliatorius)",
+    "Nuskaityti EGR/DPF klaidas",
+    "Apžiūrėti kėbulo apačią"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Fiat_Ducato",
+    "https://en.wikipedia.org/wiki/Peugeot_Boxer",
+    "https://en.wikipedia.org/wiki/Citroën_Jumper",
+    "https://en.wikipedia.org/wiki/Fiat_Multijet_engine"
+   ],
+   "confidence": "vidutinis"
+  },
+  {
+   "vehicle_type": "furgonai_lengvieji_komerciniai",
+   "brand": "iveco",
+   "models": [
+    "Iveco Daily"
+   ],
+   "engine": "2.3 / 3.0 HPI/HPT",
+   "fault_lt": "Daily turi rėminę važiuoklę, todėl populiarus sunkesniems kemperiams ir mikroautobusams; dažniausi rūpesčiai – purkštukai, EGR ir rėmo korozija.",
+   "related_codes": [
+    "P0401",
+    "P0087"
+   ],
+   "symptoms_lt": [
+    "Dūmija",
+    "Variklio lemputė"
+   ],
+   "cost_eur_lt": [
+    1000,
+    4000
+   ],
+   "cost_basis": "common_rail",
+   "buyer_checks_lt": [
+    "Apžiūrėti rėmą dėl korozijos",
+    "Purkštukų testas"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Iveco_Daily"
+   ],
+   "confidence": "žemas"
+  },
+  {
+   "vehicle_type": "furgonai_lengvieji_komerciniai",
+   "brand": "peugeot_citroen",
+   "models": [
+    "Toyota Proace, Peugeot Expert, Citroën Jumpy, Opel Vivaro C (2019+)"
+   ],
+   "engine": "1.5 / 2.0 BlueHDi",
+   "fault_lt": "Proace ir Vivaro C techniškai yra PSA Expert/Jumpy. BlueHDi varikliams žinomi AdBlue bako / siurblio gedimai, dėl kurių ribojamas užvedimas.",
+   "related_codes": [
+    "P20E8",
+    "P20EE",
+    "P2002"
+   ],
+   "symptoms_lt": [
+    "„AdBlue“ ir „užvedimas negalimas po X km“ įspėjimai"
+   ],
+   "cost_eur_lt": [
+    24,
+    300
+   ],
+   "cost_basis": "adblue_nox",
+   "buyer_checks_lt": [
+    "Nuskaityti SCR/AdBlue klaidas",
+    "Paklausti, ar keistas AdBlue bakas"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Toyota_ProAce",
+    "https://en.wikipedia.org/wiki/Opel_Vivaro"
+   ],
+   "confidence": "vidutinis"
+  },
+  {
+   "vehicle_type": "sunkvezimiai",
+   "brand": "sunkvezimiai_bendra",
+   "models": [
+    "Scania R/S, Volvo FH, MAN TGX, DAF XF, Mercedes Actros, Iveco Stralis/S-Way"
+   ],
+   "engine": "Euro V / Euro VI dyzeliai",
+   "fault_lt": "Euro VI vilkikai naudoja EGR, DPF ir SCR su AdBlue. Dažniausios klaidos – NOx jutikliai, AdBlue dozatorius ir siurblys, DPF slėgio jutiklis. Klaidos rodomos J1939 SPN/FMI formatu, ne P kodais.",
+   "related_codes": [],
+   "symptoms_lt": [
+    "Galios ribojimas (derate)",
+    "AdBlue įspėjimai"
+   ],
+   "cost_eur_lt": [
+    45,
+    70
+   ],
+   "cost_basis": "sunkvezimio_darbo_valanda",
+   "buyer_checks_lt": [
+    "Nuskaityti DM1 klaidas (SPN/FMI) ir istoriją",
+    "Patikrinti tachografo ir ridos atitikimą",
+    "Patikrinti AdBlue sistemos būklę"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Scania_R-series",
+    "https://en.wikipedia.org/wiki/Volvo_FH",
+    "https://en.wikipedia.org/wiki/MAN_TGX",
+    "https://en.wikipedia.org/wiki/DAF_XF",
+    "https://en.wikipedia.org/wiki/Mercedes-Benz_Actros",
+    "https://en.wikipedia.org/wiki/Iveco_Stralis",
+    "https://en.wikipedia.org/wiki/Selective_catalytic_reduction",
+    "https://en.wikipedia.org/wiki/SAE_J1939"
+   ],
+   "confidence": "žemas"
+  },
+  {
+   "vehicle_type": "autobusai",
+   "brand": "autobusai_bendra",
+   "models": [
+    "Solaris Urbino, Mercedes Citaro, MAN Lion's City ir kt."
+   ],
+   "engine": "Dyzeliniai ir elektriniai miesto autobusai",
+   "fault_lt": "Autobusai diagnostikai naudoja J1939; elektriniuose – aukštos įtampos baterijų ir įkrovimo sistemų klaidos. Tikslūs gamintojų kodai neprieinami atvirai.",
+   "related_codes": [],
+   "symptoms_lt": [
+    "Įspėjimai prietaisų skydelyje",
+    "Galios ribojimas"
+   ],
+   "cost_eur_lt": [
+    45,
+    70
+   ],
+   "cost_basis": "sunkvezimio_darbo_valanda",
+   "buyer_checks_lt": [
+    "Nuskaityti J1939 klaidas",
+    "Elektriniams – baterijos SOH ataskaita"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Solaris_Urbino",
+    "https://en.wikipedia.org/wiki/SAE_J1939"
+   ],
+   "confidence": "žemas"
+  },
+  {
+   "vehicle_type": "motociklai_keturraciai_euro5",
+   "brand": "motociklai_bendra",
+   "models": [
+    "Euro 5 motociklai ir motoroleriai (pvz. Honda PCX, Yamaha MT-07, BMW R 1250 GS)"
+   ],
+   "engine": "Benzininiai su OBD",
+   "fault_lt": "Euro 5 motociklai privalo turėti OBD sistemą ir dažniausiai naudoja bendruosius P kodus (variklis ir išmetimas), tačiau diagnostikos jungtis dažnai būna gamintojo, todėl reikia adapterio. Gamintojų specifinių kodų atvirų sąrašų nėra. Motoroleriams su variatoriumi – diržo ir ritinėlių dilimas.",
+   "related_codes": [
+    "P0130",
+    "P0335",
+    "P0505"
+   ],
+   "symptoms_lt": [
+    "Variklio lemputė",
+    "Nelygi laisvoji eiga"
+   ],
+   "cost_eur_lt": [
+    30,
+    60
+   ],
+   "cost_basis": "motociklo_diagnostika",
+   "buyer_checks_lt": [
+    "Nuskaityti klaidas OBD adapteriu (reikia motociklui tinkamo jungties adapterio)",
+    "Patikrinti variatoriaus diržą motoroleriuose",
+    "Patikrinti grandinę ir žvaigždes"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/European_emission_standards",
+    "https://en.wikipedia.org/wiki/Honda_PCX",
+    "https://en.wikipedia.org/wiki/Yamaha_MT-07",
+    "https://en.wikipedia.org/wiki/BMW_R1250GS",
+    "https://en.wikipedia.org/wiki/Continuously_variable_transmission"
+   ],
+   "confidence": "žemas"
+  },
+  {
+   "vehicle_type": "traktoriai_zemes_ukio",
+   "brand": "zemes_ukio_bendra",
+   "models": [
+    "John Deere, Claas, Fendt, New Holland ir kt."
+   ],
+   "engine": "Stage IV/V dyzeliai",
+   "fault_lt": "Traktoriai naudoja J1939 ir ISOBUS; naujuose – DPF ir SCR su AdBlue. Klaidos rodomos SPN/FMI formatu.",
+   "related_codes": [],
+   "symptoms_lt": [
+    "Galios ribojimas",
+    "AdBlue įspėjimai"
+   ],
+   "cost_eur_lt": [
+    50,
+    50
+   ],
+   "cost_basis": "zemes_ukio_technikos_valanda",
+   "buyer_checks_lt": [
+    "Nuskaityti J1939 klaidas",
+    "Patikrinti motovalandas ir jų atitikimą būklei"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/John_Deere",
+    "https://en.wikipedia.org/wiki/ISOBUS",
+    "https://en.wikipedia.org/wiki/SAE_J1939"
+   ],
+   "confidence": "žemas"
+  },
+  {
+   "vehicle_type": "elektromobiliai_hibridai",
+   "brand": "nissan",
+   "models": [
+    "Nissan Leaf (24/30/40/62 kWh)"
+   ],
+   "engine": "Elektrinė pavara",
+   "fault_lt": "Leaf baterija aušinama pasyviai, todėl karštyje ir dažnai greitai kraunant talpa mažėja greičiau. Talpą rodo 12 padalų skalė; daugeliui senų 24 kWh baterijų atnaujinimas brangesnis už automobilį.",
+   "related_codes": [
+    "P0A80",
+    "P0AFA"
+   ],
+   "symptoms_lt": [
+    "Mažas nuvažiuojamas atstumas",
+    "Trūksta talpos padalų"
+   ],
+   "cost_eur_lt": [
+    2500,
+    18000
+   ],
+   "cost_basis": "ev_baterija_visa",
+   "buyer_checks_lt": [
+    "Patikrinti SOH su LeafSpy ar kitu OBD įrankiu",
+    "Suskaičiuoti talpos padalas",
+    "Patikrinti greito įkrovimo (CHAdeMO) veikimą"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Nissan_Leaf"
+   ],
+   "confidence": "aukštas"
+  },
+  {
+   "vehicle_type": "elektromobiliai_hibridai",
+   "brand": "vw_audi_skoda_seat",
+   "models": [
+    "VW ID.3, ID.4, Škoda Enyaq"
+   ],
+   "engine": "MEB platforma",
+   "fault_lt": "Ankstyviesiems ID.3 buvo daug programinės įrangos klaidų; jos taisomos atnaujinimais. Svarbu, ar automobilis turi naujausią programinę įrangą.",
+   "related_codes": [],
+   "symptoms_lt": [
+    "Ekrano klaidos",
+    "Įkrovimo nutrūkimai"
+   ],
+   "cost_eur_lt": [
+    50,
+    80
+   ],
+   "cost_basis": "hibrido_baterijos_diagnostika",
+   "buyer_checks_lt": [
+    "Patikrinti programinės įrangos versiją",
+    "Gauti baterijos SOH ataskaitą iš serviso"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Volkswagen_ID.3"
+   ],
+   "confidence": "vidutinis"
+  },
+  {
+   "vehicle_type": "elektromobiliai_hibridai",
+   "brand": "hyundai_kia",
+   "models": [
+    "Hyundai Kona Electric"
+   ],
+   "engine": "64 / 39 kWh",
+   "fault_lt": "2020–2021 m. Hyundai visame pasaulyje atšaukė Kona Electric dėl baterijos gaisro rizikos; daliai automobilių keista visa baterija.",
+   "related_codes": [
+    "P0A80"
+   ],
+   "symptoms_lt": [
+    "Įspėjimai apie baterijos sistemą"
+   ],
+   "cost_eur_lt": [
+    50,
+    80
+   ],
+   "cost_basis": "hibrido_baterijos_diagnostika",
+   "buyer_checks_lt": [
+    "Patikrinti atšaukimą pagal VIN",
+    "Gauti SOH ataskaitą"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Hyundai_Kona"
+   ],
+   "confidence": "aukštas"
+  },
+  {
+   "vehicle_type": "elektromobiliai_hibridai",
+   "brand": "hyundai_kia",
+   "models": [
+    "Hyundai Ioniq 5, Kia EV6"
+   ],
+   "engine": "E-GMP platforma",
+   "fault_lt": "Šiems modeliams buvo atšaukimų dėl integruoto įkrovimo valdymo bloko (ICCU), kuris gali nustoti krauti 12 V akumuliatorių.",
+   "related_codes": [],
+   "symptoms_lt": [
+    "12 V akumuliatoriaus išsikrovimas",
+    "Galios praradimas"
+   ],
+   "cost_eur_lt": null,
+   "cost_basis": "ivertinimas",
+   "buyer_checks_lt": [
+    "Patikrinti atšaukimus pagal VIN",
+    "Patikrinti 12 V akumuliatoriaus įkrovimą"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Hyundai_Ioniq_5",
+    "https://en.wikipedia.org/wiki/Kia_EV6"
+   ],
+   "confidence": "vidutinis"
+  },
+  {
+   "vehicle_type": "elektromobiliai_hibridai",
+   "brand": "hyundai_kia",
+   "models": [
+    "Kia Niro (HEV / PHEV / EV)"
+   ],
+   "engine": "Hibridas / elektrinis",
+   "fault_lt": "Niro parduodamas kaip hibridas, įkraunamas hibridas ir elektromobilis; patikra priklauso nuo versijos – HEV/PHEV atveju ir variklis, ir baterija.",
+   "related_codes": [
+    "P0A80"
+   ],
+   "symptoms_lt": [
+    "Hibrido įspėjimai"
+   ],
+   "cost_eur_lt": [
+    50,
+    80
+   ],
+   "cost_basis": "hibrido_baterijos_diagnostika",
+   "buyer_checks_lt": [
+    "Išsiaiškinti versiją (HEV/PHEV/EV)",
+    "Baterijos SOH ataskaita",
+    "PHEV – patikrinti įkrovimą"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kia_Niro"
+   ],
+   "confidence": "žemas"
+  },
+  {
+   "vehicle_type": "elektromobiliai_hibridai",
+   "brand": "renault_dacia",
+   "models": [
+    "Renault Zoe"
+   ],
+   "engine": "22 / 41 / 52 kWh",
+   "fault_lt": "Daug Zoe parduota su nuomojama baterija – perkant naudotą būtina išsiaiškinti, ar baterija priklauso automobiliui, ar mokama mėnesinė nuoma.",
+   "related_codes": [],
+   "symptoms_lt": [
+    "Įkrovimo klaidos"
+   ],
+   "cost_eur_lt": [
+    2500,
+    18000
+   ],
+   "cost_basis": "ev_baterija_visa",
+   "buyer_checks_lt": [
+    "Gauti dokumentą, kad baterija nupirkta (ne nuoma)",
+    "Baterijos SOH ataskaita"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Renault_Zoe"
+   ],
+   "confidence": "aukštas"
+  },
+  {
+   "vehicle_type": "elektromobiliai_hibridai",
+   "brand": "bmw",
+   "models": [
+    "BMW i3 / i3 REx"
+   ],
+   "engine": "60/94/120 Ah baterija",
+   "fault_lt": "i3 gamintas su skirtingos talpos baterijomis ir su benzininiu atstumo didintuvu (REx). REx versijoje reikia tikrinti ir mažąjį benzininį variklį.",
+   "related_codes": [],
+   "symptoms_lt": [
+    "Mažesnis atstumas",
+    "REx variklio klaidos"
+   ],
+   "cost_eur_lt": [
+    2500,
+    18000
+   ],
+   "cost_basis": "ev_baterija_visa",
+   "buyer_checks_lt": [
+    "Nustatyti baterijos talpą (Ah) ir SOH",
+    "REx – patikrinti benzininio variklio klaidas"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/BMW_i3"
+   ],
+   "confidence": "vidutinis"
+  }
+ ],
+ "ev_soh_guide_lt": {
+  "title": "Kaip patikrinti naudoto elektromobilio ar hibrido baterijos būklę (SOH)",
+  "steps": [
+   "Paprašyti oficialaus serviso baterijos būklės (SOH) ataskaitos arba atlikti diagnostiką OBD įrankiu (pvz. Leaf – LeafSpy; Hyundai/Kia, VW, Renault – modeliui tinkama programėlė su OBD adapteriu).",
+   "Palyginti SOH su gamintojo garantija – daugelis garantuoja apie 70 % talpos 8 metus arba 160 000 km.",
+   "Pažiūrėti atstumą esant 100 % įkrovai ir palyginti su naujo automobilio duomenimis (žiemą atstumas natūraliai mažesnis).",
+   "Patikrinti įkrovimą ir AC (namų / viešoji stotelė), ir DC greituoju krovikliu – ar įkrovimas nenutrūksta.",
+   "Nuskaityti klaidų kodus (P0A..–P0E.., U kodai): baterijos, izoliacijos ir įkroviklio klaidos – rimtas įspėjimas.",
+   "Hibridams – paprašyti hibridinės sistemos patikros ataskaitos, patikrinti baterijos ventiliatorių ir filtrą.",
+   "Įvertinti remonto kainą: modulių keitimas LT apie 100–1500 €, visos hibrido baterijos 1500–2500 €, EV baterijos 2500–18000 € (žr. prices_lt.json).",
+   "Patikrinti atšaukimo akcijas pagal VIN ir ar baterija nėra nuomojama (pvz. Renault Zoe)."
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/State_of_health",
+   "https://en.wikipedia.org/wiki/Nissan_Leaf",
+   "https://en.wikipedia.org/wiki/Renault_Zoe",
+   "https://www.wheelstreet.lt/zodynas/baterija-ev"
+  ]
+ },
+ "vehicle_type_counts": {
+  "lengvieji": 13,
+  "visureigiai_4x4": 8,
+  "elektromobiliai_hibridai": 11,
+  "furgonai_lengvieji_komerciniai": 8,
+  "sunkvezimiai": 1,
+  "autobusai": 1,
+  "motociklai_keturraciai_euro5": 1,
+  "traktoriai_zemes_ukio": 1
+ }
+}
